@@ -1,0 +1,121 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> */
+
+
+
+
+/* Body Copy
+Font size (paragraph): 15px
+Font
+Family: Outfit
+Weights: 400, 700 */
+
+/* The designs were created to the following widths:
+
+Mobile: 375px
+Desktop: 1440px */
+
+:root{
+  --White: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+
+}
+
+body{
+  background-color: var(--Lightgray);
+}
+.container{
+  width: 10em;
+  height: auto;
+  margin: auto;
+  margin-top:8em ;
+  margin-bottom: 2em;
+  padding-left: .5em;
+  padding-top: .5em;
+  padding-right: -2em;
+  border: 1px solid white;
+  border-radius: .7em;
+  background-color: var(--White);
+  
+
+  
+}
+
+img{
+  max-width: 90%;
+  margin-left: .2em;
+  margin-right: .4em;
+  border-radius: .3em;
+}
+
+.heading{
+  font-family: 'Outfit';
+  font-size: 16px;
+  width: 100%;
+  text-align:left;
+  text-indent: .4em;
+  padding-left: .7em;
+  
+}
+
+
+
+
+.heading-div{
+  width: 90%;
+  margin-top: -.4em;
+  margin-left: .1em;
+  
+}
+
+
+
+
+.info{
+  font-family: 'Outfit' ;
+  font-weight: 700px;
+  font-size: 12px;
+  text-indent: .2em;
+  
+}
+
+
+
+.info-div{
+  width: 85%;
+  margin-top: -.4em;
+  padding-left: .4em;
+  margin-left: .2em;
+
+}
+
+span{
+  padding-left: 4em;
+}
+
+.attribution{
+  margin: auto;
+  width:fit-content;
+  font-size: 10px;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .container{
+    width: 98%;
+    height: auto;
+  }
+
+  .attribution{
+    margin: auto;
+    width:fit-content;
+    font-size: 10px;
+  }
+  
+}
